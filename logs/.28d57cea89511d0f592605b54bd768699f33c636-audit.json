@@ -1,0 +1,19 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "H:\\angularprj\\Node Experiments\\microService\\logs\\.28d57cea89511d0f592605b54bd768699f33c636-audit.json",
+    "files": [
+        {
+            "date": 1628574922600,
+            "name": "H:\\angularprj\\Node Experiments\\microService\\logs\\app-2021-08-10.log",
+            "hash": "d08efcad257391900dd1befe39dbf917"
+        },
+        {
+            "date": 1629091001916,
+            "name": "H:\\angularprj\\Node Experiments\\microService\\logs\\app-2021-08-16.log",
+            "hash": "223ace9ed91339c10282a1bb906fbcf2"
+        }
+    ]
+}

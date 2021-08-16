@@ -1,0 +1,40 @@
+{"message":"MongoDB connected","level":"info"}
+{"message":"MongoDB connected","level":"info"}
+{"message":"MongoDB connected","level":"info"}
+{"message":"MongoDB connected","level":"info"}
+{"message":"MongoDB connected","level":"info"}
+{"message":"MongoDB connected","level":"info"}
+{"message":"MongoDB connected","level":"info"}
+{"message":"MongoDB connected","level":"info"}
+{"message":"MongoDB connected","level":"info"}
+{"message":"MongoDB connected","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [16/Aug/2021:06:24:42 +0000] \"POST /api/customer/addCustomer HTTP/1.1\" 200 31 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [16/Aug/2021:06:36:12 +0000] \"POST /api/customer/addCustomer HTTP/1.1\" 422 104 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [16/Aug/2021:06:36:29 +0000] \"POST /api/customer/addCustomer HTTP/1.1\" 422 68 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [16/Aug/2021:06:36:40 +0000] \"POST /api/customer/addCustomer HTTP/1.1\" 422 128 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [16/Aug/2021:06:37:08 +0000] \"POST /api/customer/addCustomer HTTP/1.1\" 200 31 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [16/Aug/2021:06:37:31 +0000] \"POST /api/customer/addCustomer HTTP/1.1\" 200 31 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36\"\n","level":"info"}
+{"message":"MongoDB connected","level":"info"}
+{"message":"MongoDB connected","level":"info"}
+{"message":"MongoDB connected","level":"info"}
+{"message":"MongoDB connected","level":"info"}
+{"message":"MongoDB connected","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [16/Aug/2021:06:57:18 +0000] \"GET /api/customer/getAllCustomer HTTP/1.1\" 200 640 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [16/Aug/2021:06:57:26 +0000] \"GET /api/customer/getAllCustomer HTTP/1.1\" 200 640 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [16/Aug/2021:06:58:05 +0000] \"GET /api/customer/getCustomerById/611a04aae76386897414449b HTTP/1.1\" 200 31 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36\"\n","level":"info"}
+{"message":"MongoDB connected","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [16/Aug/2021:06:58:37 +0000] \"GET /api/customer/getCustomerById/611a04aae76386897414449b HTTP/1.1\" 200 242 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [16/Aug/2021:06:58:43 +0000] \"GET /api/customer/getCustomerById/611a04aae76386897414449 HTTP/1.1\" 400 47 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36\"\n","level":"info"}
+{"message":"CastError: Cast to ObjectId failed for value \"611a04aae76386897414449\" (type string) at path \"_id\" for model \"customer\"","level":"error"}
+{"message":"::ffff:127.0.0.1 - - [16/Aug/2021:06:58:48 +0000] \"GET /api/customer/getCustomerById/611a04aae76386897414449a HTTP/1.1\" 404 39 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [16/Aug/2021:06:58:52 +0000] \"GET /api/customer/getCustomerById/611a04aae76386897414449b HTTP/1.1\" 200 242 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [16/Aug/2021:06:59:11 +0000] \"GET /api/customer/getAllCustomer HTTP/1.1\" 200 640 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [16/Aug/2021:06:59:26 +0000] \"GET /api/customer/getCustomerById/611a04aae76386897414449b HTTP/1.1\" 200 242 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [16/Aug/2021:06:59:39 +0000] \"GET /api/customer/getCustomerById/611a0794e76386897414449e HTTP/1.1\" 200 237 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36\"\n","level":"info"}
+{"message":"MongoDB connected","level":"info"}
+{"message":"MongoDB connected","level":"info"}
+{"message":"MongoDB connected","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [16/Aug/2021:07:06:39 +0000] \"GET /api/customer/getAllCustomer HTTP/1.1\" 404 39 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [16/Aug/2021:07:06:44 +0000] \"GET /api/customer/getAllCustomer HTTP/1.1\" 404 39 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [16/Aug/2021:07:08:38 +0000] \"GET /api/customer/getAllCustomer HTTP/1.1\" 200 640 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [16/Aug/2021:07:09:01 +0000] \"GET /api/customer/getCustomerById/611a0794e76386897414449e HTTP/1.1\" 200 237 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36\"\n","level":"info"}
