@@ -1,5 +1,5 @@
 const { customerModel, validateCustomer } = require('../models/customer-model');
-
+ 
 // save customer 
 exports.saveCustomer = (data) => {
     const customer = new customerModel(data);

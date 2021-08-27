@@ -6,11 +6,6 @@
     "auditLog": "H:\\angularprj\\Node Experiments\\microService\\logs\\.28d57cea89511d0f592605b54bd768699f33c636-audit.json",
     "files": [
         {
-            "date": 1628574922600,
-            "name": "H:\\angularprj\\Node Experiments\\microService\\logs\\app-2021-08-10.log",
-            "hash": "d08efcad257391900dd1befe39dbf917"
-        },
-        {
             "date": 1629091001916,
             "name": "H:\\angularprj\\Node Experiments\\microService\\logs\\app-2021-08-16.log",
             "hash": "223ace9ed91339c10282a1bb906fbcf2"
@@ -19,6 +14,11 @@
             "date": 1629177524728,
             "name": "H:\\angularprj\\Node Experiments\\microService\\logs\\app-2021-08-17.log",
             "hash": "3fbf9a47a2993524c33c232cd44375f4"
+        },
+        {
+            "date": 1630048790174,
+            "name": "H:\\angularprj\\Node Experiments\\microService\\logs\\app-2021-08-27.log",
+            "hash": "9eae5746279e89b3f28d725ddb94d35e"
         }
     ]
 }

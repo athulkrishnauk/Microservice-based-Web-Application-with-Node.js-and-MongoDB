@@ -1,46 +1,44 @@
 const responseUtil = require("../../utilities/response");
 const messageUtil = require("../../utilities/message");
-const customerService = require("./customerService");
+const orderService = require("./orderService");
 var mongoose = require('mongoose');
 
-// ========================================= Add customer 
+// ========================================= Add order
 
-exports.addCustomer = async (req, res) => {
+exports.addOrder = async (req, res) => {
 
-    try { 
-        const customerData = {
-            customer_name: req.body.customer_name,
-            email: req.body.email,
-            phone_number: req.body.phone_number
+    try {
+        const orderData = {
+            customer_id: req.body.customer_id,
+            product_id: req.body.product_id,
+            quantity: req.body.quantity,
+            total_price: req.body.total_price,
+            order_date: req.body.order_date
         }
 
-        const isValid = customerService.validateCustomer(customerData);
+        console.log(orderData)
+
+        const isValid = orderService.validateOrder(orderData);
 
         if(isValid.error) {
             return responseUtil.validationErrorResponse(res, isValid.error.details[0].message, 
             isValid.error.details[0].message);
         }
 
-        const result = await customerService.findOneCustomer(customerData);
-
-        if(result == null) {
-            await customerService.saveCustomer(customerData).then(resp => {
-                responseUtil.successResponse(res, messageUtil.successResponse);
-            });
-        } else {
-            responseUtil.existDocumentResponse(res, messageUtil.alreadyExist);
-        }
+        await orderService.saveOrder(orderData).then(resp => {
+            responseUtil.successResponse(res, messageUtil.successResponse);
+        });
     } catch(ex) {
         responseUtil.serverErrorResponse(res, ex);
     }
 }
 
-// ================================================= Get all customer
+//================================================ Get all order
 
-exports.getAllCustomer = async (req, res) => {
+exports.getAllOrder = async (req, res) => {
 
     try {
-        const result = await customerService.findAllCustomer();
+        const result = await orderService.findAllOrder();
 
         if(result.length == 0) {
             responseUtil.notFoundErrorResponse(res, messageUtil.notfoundError);
@@ -52,9 +50,9 @@ exports.getAllCustomer = async (req, res) => {
     }
 }
 
-// ================================================= Get customer by id
+// ======================================================== Get order by id
 
-exports.getCustomerById = async (req, res) => {
+exports.getOrderById = async (req, res) => {
 
     try {
         const isValid = mongoose.Types.ObjectId.isValid(req.params.id);
@@ -63,9 +61,9 @@ exports.getCustomerById = async (req, res) => {
             responseUtil.badRequestErrorResponse(res, messageUtil.badRequestError);
         }
 
-        const result = await customerService.findCustomerById(req.params.id);
+        const result = await orderService.findOrderById(req.params.id);
 
-        if(result != null) {
+        if(result !=null ) {
             responseUtil.successResponse(res, messageUtil.successResponse, result);
         } else {
             responseUtil.notFoundErrorResponse(res, messageUtil.notfoundError);
