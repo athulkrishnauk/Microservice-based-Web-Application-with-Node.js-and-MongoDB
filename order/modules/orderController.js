@@ -2,6 +2,7 @@ const responseUtil = require("../../utilities/response");
 const messageUtil = require("../../utilities/message");
 const orderService = require("./orderService");
 var mongoose = require('mongoose');
+const axios = require('axios');
 
 // ========================================= Add order
 
@@ -15,8 +16,6 @@ exports.addOrder = async (req, res) => {
             total_price: req.body.total_price,
             order_date: req.body.order_date
         }
-
-        console.log(orderData)
 
         const isValid = orderService.validateOrder(orderData);
 
@@ -64,7 +63,28 @@ exports.getOrderById = async (req, res) => {
         const result = await orderService.findOrderById(req.params.id);
 
         if(result !=null ) {
-            responseUtil.successResponse(res, messageUtil.successResponse, result);
+            axios.get("http://localhost:5006/api/customer/getCustomerById/"+result.customer_id).then((resp) => {
+                
+                var orderObject = {
+                    order_id: result._id,
+                    quantity: result.quantity,
+                    total_price: result.total_price,
+                    order_date: result.order_date,
+                    customer_name: resp.data.result.customer_name, 
+                    customer_email: resp.data.result.email,
+                    customer_phone: resp.data.result.phone_number,
+                    product: "",
+                    product_id: "",
+                };
+
+                axios.get("http://localhost:5008/api/product/getProductById/"+result.product_id).then((resp1) => {
+
+                    orderObject.product = resp1.data.result.product_name;
+                    orderObject.product_id = resp1.data.result.product_id;
+
+                    responseUtil.successResponse(res, messageUtil.successResponse, orderObject);
+                });
+            });
         } else {
             responseUtil.notFoundErrorResponse(res, messageUtil.notfoundError);
         }

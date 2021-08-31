@@ -1,0 +1,46 @@
+{"message":"MongoDB connected","level":"info"}
+{"message":"MongoDB connected","level":"info"}
+{"message":"MongoDB connected","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [31/Aug/2021:05:44:19 +0000] \"GET /api/order/getOrderById/6128deec0482b39aa034b4f6 HTTP/1.1\" 200 14 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [31/Aug/2021:05:44:20 +0000] \"GET /api/customer/getCustomerById/611a0794e76386897414449e HTTP/1.1\" 200 237 \"-\" \"axios/0.21.1\"\n","level":"info"}
+{"message":"MongoDB connected","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [31/Aug/2021:05:51:49 +0000] \"GET /api/order/getOrderById/6128deec0482b39aa034b4f6 HTTP/1.1\" 200 14 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [31/Aug/2021:05:51:49 +0000] \"GET /api/customer/getCustomerById/611a0794e76386897414449e HTTP/1.1\" 200 237 \"-\" \"axios/0.21.1\"\n","level":"info"}
+{"message":"MongoDB connected","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [31/Aug/2021:05:57:35 +0000] \"GET /api/customer/getCustomerById/611a0794e76386897414449e HTTP/1.1\" 200 237 \"-\" \"axios/0.21.1\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [31/Aug/2021:05:57:35 +0000] \"GET /api/product/getProductById/611b510ebd99c46a48773f44 HTTP/1.1\" 200 240 \"-\" \"axios/0.21.1\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [31/Aug/2021:05:57:35 +0000] \"GET /api/order/getOrderById/6128deec0482b39aa034b4f6 HTTP/1.1\" 200 24 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36\"\n","level":"info"}
+{"message":"MongoDB connected","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [31/Aug/2021:05:58:11 +0000] \"GET /api/customer/getCustomerById/611a0794e76386897414449e HTTP/1.1\" 200 237 \"-\" \"axios/0.21.1\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [31/Aug/2021:05:58:11 +0000] \"GET /api/product/getProductById/611b510ebd99c46a48773f44 HTTP/1.1\" 200 240 \"-\" \"axios/0.21.1\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [31/Aug/2021:05:58:11 +0000] \"GET /api/order/getOrderById/6128deec0482b39aa034b4f6 HTTP/1.1\" 200 24 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36\"\n","level":"info"}
+{"message":"MongoDB connected","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [31/Aug/2021:05:58:27 +0000] \"GET /api/customer/getCustomerById/611a0794e76386897414449e HTTP/1.1\" 200 237 \"-\" \"axios/0.21.1\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [31/Aug/2021:05:58:27 +0000] \"GET /api/product/getProductById/611b510ebd99c46a48773f44 HTTP/1.1\" 200 240 \"-\" \"axios/0.21.1\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [31/Aug/2021:05:58:27 +0000] \"GET /api/order/getOrderById/6128deec0482b39aa034b4f6 HTTP/1.1\" 200 56 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36\"\n","level":"info"}
+{"message":"MongoDB connected","level":"info"}
+{"message":"MongoDB connected","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [31/Aug/2021:06:05:14 +0000] \"GET /api/customer/getCustomerById/611a0794e76386897414449e HTTP/1.1\" 200 237 \"-\" \"axios/0.21.1\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [31/Aug/2021:06:05:14 +0000] \"GET /api/product/getProductById/611b510ebd99c46a48773f44 HTTP/1.1\" 200 240 \"-\" \"axios/0.21.1\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [31/Aug/2021:06:05:14 +0000] \"GET /api/order/getOrderById/6128deec0482b39aa034b4f6 HTTP/1.1\" 200 253 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36\"\n","level":"info"}
+{"message":"MongoDB connected","level":"info"}
+{"message":"MongoDB connected","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [31/Aug/2021:06:06:15 +0000] \"GET /api/customer/getCustomerById/611a0794e76386897414449e HTTP/1.1\" 200 237 \"-\" \"axios/0.21.1\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [31/Aug/2021:06:06:15 +0000] \"GET /api/product/getProductById/611b510ebd99c46a48773f44 HTTP/1.1\" 200 240 \"-\" \"axios/0.21.1\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [31/Aug/2021:06:06:15 +0000] \"GET /api/order/getOrderById/6128deec0482b39aa034b4f6 HTTP/1.1\" 200 294 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36\"\n","level":"info"}
+{"message":"MongoDB connected","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [31/Aug/2021:06:14:36 +0000] \"GET /api/customer/getCustomerById/611a0794e76386897414449e HTTP/1.1\" 200 237 \"-\" \"axios/0.21.1\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [31/Aug/2021:06:14:36 +0000] \"GET /api/product/getProductById/611b510ebd99c46a48773f44 HTTP/1.1\" 200 240 \"-\" \"axios/0.21.1\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [31/Aug/2021:06:14:36 +0000] \"GET /api/order/getOrderById/6128deec0482b39aa034b4f6 HTTP/1.1\" 200 294 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [31/Aug/2021:06:15:01 +0000] \"GET /api/customer/getCustomerById/611a04aae76386897414449b HTTP/1.1\" 200 242 \"-\" \"axios/0.21.1\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [31/Aug/2021:06:15:01 +0000] \"GET /api/product/getProductById/611b509ebd99c46a48773f3e HTTP/1.1\" 200 235 \"-\" \"axios/0.21.1\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [31/Aug/2021:06:15:01 +0000] \"GET /api/order/getOrderById/6128de680482b39aa034b4f2 HTTP/1.1\" 200 294 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [31/Aug/2021:06:15:10 +0000] \"GET /api/customer/getCustomerById/611a0794e76386897414449e HTTP/1.1\" 200 237 \"-\" \"axios/0.21.1\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [31/Aug/2021:06:15:11 +0000] \"GET /api/product/getProductById/611b510ebd99c46a48773f44 HTTP/1.1\" 200 240 \"-\" \"axios/0.21.1\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [31/Aug/2021:06:15:11 +0000] \"GET /api/order/getOrderById/6128deec0482b39aa034b4f6 HTTP/1.1\" 200 294 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [31/Aug/2021:06:15:19 +0000] \"GET /api/customer/getCustomerById/611a04aae76386897414449b HTTP/1.1\" 200 242 \"-\" \"axios/0.21.1\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [31/Aug/2021:06:15:19 +0000] \"GET /api/product/getProductById/611b509ebd99c46a48773f3e HTTP/1.1\" 200 235 \"-\" \"axios/0.21.1\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [31/Aug/2021:06:15:19 +0000] \"GET /api/order/getOrderById/6128de680482b39aa034b4f2 HTTP/1.1\" 200 294 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [31/Aug/2021:06:17:53 +0000] \"GET /api/customer/getCustomerById/ HTTP/1.1\" 404 51 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36 OPR/78.0.4093.147\"\n","level":"info"}
+{"message":"::1 - - [31/Aug/2021:06:17:56 +0000] \"GET /favicon.ico HTTP/1.1\" 404 51 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36 OPR/78.0.4093.147\"\n","level":"info"}
+{"message":"MongoDB connected","level":"info"}

@@ -5,8 +5,8 @@ var mongoose = require('mongoose');
 
 // ========================================= Add customer 
 
-exports.addCustomer = async (req, res) => {
-
+exports.addCustomer = async (req, res) => {                                                     
+                       
     try { 
         const customerData = {
             customer_name: req.body.customer_name,
